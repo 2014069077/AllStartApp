@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#c1d4f1"
+    >
+
+    <TextView
+        android:id="@+id/tv_firstLine"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Get set for school"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="black"
+        android:layout_marginTop="250dp"
+        />
+
+    <TextView
+        android:id="@+id/tv_secondLine"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:hint="Click here to continue >"
+        android:textSize="17dp"
+        android:layout_marginTop="10dp"
+        />
+
+</LinearLayout>
